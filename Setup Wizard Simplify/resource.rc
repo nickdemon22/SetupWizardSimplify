@@ -1,0 +1,10 @@
+#include "resource.h"
+
+// Иконка программы
+IDI_MAIN_ICON         ICON    "app_icon.ico"
+
+// Фоновая картинка (может быть PNG, JPG или BMP)
+IDR_IMAGE_BG          IMAGE   "background.png"
+
+// Ваш архив с файлами (сжатый zlib или просто zip)
+IDR_INSTALLER_DATA    RCDATA  "payload.zip"
